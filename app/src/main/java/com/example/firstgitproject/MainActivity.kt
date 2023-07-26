@@ -7,5 +7,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        android.widget.Toast.makeText(this, "hellow every body", Toast.LENGTH_SHORT).show()
     }
 }
