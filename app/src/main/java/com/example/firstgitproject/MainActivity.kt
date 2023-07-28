@@ -9,5 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         android.widget.Toast.makeText(this, "hellow every body", Toast.LENGTH_SHORT).show()
+        android.widget.Toast.makeText(this, "hellow every body", Toast.LENGTH_SHORT).show()
+        android.widget.Toast.makeText(this, "hellow every body", Toast.LENGTH_SHORT).show()
     }
 }
